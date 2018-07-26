@@ -23,6 +23,8 @@
 #include <libff/common/profiling.hpp>
 #include <libff/common/utils.hpp>
 
+#define NO_PROCPS 1
+
 #ifndef NO_PROCPS
 #include <proc/readproc.h>
 #endif
